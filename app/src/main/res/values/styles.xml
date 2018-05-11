@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#00838F</item>
+        <item name="colorPrimaryDark">#006064</item>
+        <!--corlorAccent是所有控件亮起、被编辑反正就是各种需要醒目显示的时候使用的颜色-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionOverflowButtonStyle">@style/PlusReplaceMenu</item>
+    </style>
+
+    <style name="PlusReplaceMenu" parent="Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/plus_icon</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
